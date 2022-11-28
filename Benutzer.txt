@@ -1,0 +1,16 @@
+-- uebung4.Benutzer definition
+
+CREATE TABLE `Benutzer` (
+  `Benutzer-ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Rolle` varchar(100) NOT NULL,
+  `Anrede` varchar(100) NOT NULL,
+  `Vorname` varchar(50) NOT NULL,
+  `Nachname` varchar(50) NOT NULL,
+  `EMail` varchar(50) NOT NULL,
+  `Passwort` varchar(50) NOT NULL,
+  `Strasse` varchar(100) NOT NULL,
+  `Hausnummer` int(3) NOT NULL,
+  `Plz` int(5) NOT NULL,
+  `Ort` varchar(100) NOT NULL,
+  PRIMARY KEY (`Benutzer-ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
